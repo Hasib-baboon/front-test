@@ -1,0 +1,14 @@
+@import '~compass-mixins/lib/compass/css3';
+
+@mixin transition-all {
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+      transition: all 200ms ease-in-out;
+  }
+  
+  $slate-color: rgb(16,24,50);
+  $blue-color: #00bcdd;
+  $pink-color: #ff00ff;
+  
+
